@@ -5,6 +5,7 @@ import Jumbotron from './components/jumbotron';
 function App() {
   return (
     <Jumbotron.Container>
+
       {jumboData.map((item) => (
         <Jumbotron key={item.id} direction={item.direction}>
           <Jumbotron.Pane>
@@ -16,6 +17,7 @@ function App() {
           </Jumbotron.Pane>
         </Jumbotron>
       ))}
+
     </Jumbotron.Container>
   );
 }
