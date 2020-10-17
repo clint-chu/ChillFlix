@@ -20,6 +20,6 @@ function App() {
 
         </Jumbotron.Container>
     );
-}
+};
 
 export default App;
