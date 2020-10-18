@@ -4,10 +4,10 @@ import styled from 'styled-components/macro';
 
 export const Container = styled.div`
     display: flex;
+    flex-direction: column;
     padding: 70px 56px;
     margin: auto;
     max-width: 1000px;
-    flex-direction: column;
 
     @media (max-width: 1000px) {
         padding: 70px 30px;
@@ -32,13 +32,19 @@ export const Row = styled.div`
 
 export const Link = styled.a`
     color: #757575;
-    margin-bottom: 20px;
     font-size: 13px;
+    margin-bottom: 20px;
     text-decoration: none;
 `;
 
 export const Title = styled.p`
+    color: #757575;
     font-size: 16px;
+    margin-bottom: 40px;
+`;
+
+export const Text = styled.p`
+    font-size: 13px;
     color: #757575;
     margin-bottom: 40px;
 `;
