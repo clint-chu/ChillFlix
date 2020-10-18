@@ -14,7 +14,12 @@ export const Inner = styled.div`
 `;
 
 export const Item = styled.div`
+    color: white;
+    margin-bottom: 10px;
 
+    &:first-of-type {
+        margin-top: 3em;
+    }
 `;
 
 export const Header = styled.div`
