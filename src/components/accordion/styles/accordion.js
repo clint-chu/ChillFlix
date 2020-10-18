@@ -25,6 +25,12 @@ export const Item = styled.div`
 export const Header = styled.div`
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    margin-bottom; 1px;
+    font-size: 26px;
+    font-weight: normal;
+    background: #303030;
+    padding: 0.8em 1.2em;
 `;
 
 export const Body = styled.div`
