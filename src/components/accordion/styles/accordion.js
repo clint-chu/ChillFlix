@@ -23,7 +23,8 @@ export const Item = styled.div`
 `;
 
 export const Header = styled.div`
-
+    display: flex;
+    justify-content: space-between;
 `;
 
 export const Body = styled.div`
