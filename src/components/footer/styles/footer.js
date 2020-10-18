@@ -13,3 +13,30 @@ export const Container = styled.div`
         padding: 70px 30px;
     }
 `;
+
+export const Column = styled.div`
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+`;
+
+export const Row = styled.div`
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 15px;
+
+    @media (max-width: 1000px) {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+`;
+
+export const Link = styled.a`
+    color: #757575;
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-decoration: none;
+`;
+
+export const Title = styled.p`
+    
+`;
